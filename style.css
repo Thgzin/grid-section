@@ -25,13 +25,18 @@ body {
   width: 100%;
   background-color: var(--Light-grayish-blue);
   font-family: "Barlow Semi Condensed", serif;
-  margin-top: -250px;
+
 }
 
 .boxes {
   display: flex;
   justify-content: center;
   align-items: center;
+    margin-top: -150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .box-1 {
@@ -159,7 +164,6 @@ h3 {
   margin-left: -1030px;
   margin-top: 750px;
   box-shadow: 4px 4px 55px 0px rgba(0, 0, 0, 0.15);
-
 }
 
 .emt-text-jeanette {
@@ -200,36 +204,78 @@ h3 {
   color: var(--Very-dark-grayish-blue);
 }
 
-
 .box-4 {
-  width: 590px;
+  width: 693px;
   height: 310px;
-  background-color: var(--White);
+  background-color: var(--Very-dark-blackish-blue);
   border-radius: 10px;
-  margin-left: -930px;
+  margin-left: 50px;
   margin-top: 750px;
   box-shadow: 4px 4px 55px 0px rgba(0, 0, 0, 0.15);
+}
 
+.patrick-h3 {
+  position: absolute;
+  margin: 1.5rem;
+  color: var(--White);
+  width: 650px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  z-index: 2;
+  margin-top: -5px;
+}
+
+.emt-text-patrick {
+  color: var(--White);
+  margin-left: 1.5rem;
+  width: 650px;
+  font-weight: 400;
+  position: relative;
+  top: 105px;
+  opacity: 80%;
+}
+
+.image-patrick {
+  border-radius: 50px;
+  border: 2px solid var(--Light-grayish-blue);
+  width: 3rem;
+}
+
+.patrick-txt p {
+  color: var(--Light-gray);
+}
+
+.patrick-txt span {
+  color: var(--Light-grayish-blue);
+  opacity: 50%;
+}
+
+.patrick-txt {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 
 .box-5 {
   width: 290px;
-  height: 610px;
+  height: 705px;
   background-color: var(--Moderate-violet);
   border-radius: 10px;
-  margin-left: 765px;
+  margin-left: 15px;
   position: relative;
-  top: 140px;
+  top: 192px;
   margin-top: -30px;
 }
-
-
 
 .emt-text-kira {
   color: var(--Light-gray);
   margin-left: 1.5rem;
-  width: 250px;
+  width: 205px;
   font-weight: 600;
   position: relative;
   top: 110px;
