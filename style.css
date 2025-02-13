@@ -25,14 +25,13 @@ body {
   width: 100%;
   background-color: var(--Light-grayish-blue);
   font-family: "Barlow Semi Condensed", serif;
-
 }
 
 .boxes {
   display: flex;
   justify-content: center;
   align-items: center;
-    margin-top: -150px;
+  margin-top: -150px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -167,12 +166,13 @@ h3 {
 }
 
 .emt-text-jeanette {
-  color: var(--Light-gray);
+  color: var(--Very-dark-blackish-blue);
   margin-left: 1.5rem;
   width: 250px;
   font-weight: 600;
   position: relative;
   top: 115px;
+  opacity: 60%;
 }
 
 .jeanette-txt {
@@ -260,20 +260,20 @@ h3 {
   font-weight: 500;
 }
 
-
 .box-5 {
   width: 290px;
   height: 705px;
-  background-color: var(--Moderate-violet);
+  background-color: var(--White);
   border-radius: 10px;
   margin-left: 15px;
   position: relative;
   top: 192px;
   margin-top: -30px;
+  box-shadow: 4px 4px 55px 0px rgba(0, 0, 0, 0.15);
 }
 
 .emt-text-kira {
-  color: var(--Light-gray);
+  color: var(--Very-dark-grayish-blue);
   margin-left: 1.5rem;
   width: 205px;
   font-weight: 600;
@@ -294,7 +294,7 @@ h3 {
 .kira-h3 {
   position: absolute;
   margin: 1.5rem;
-  color: var(--White);
+  color: var(--Very-dark-grayish-blue);
   width: 250px;
   font-weight: 600;
   font-size: 1.5rem;
@@ -303,11 +303,11 @@ h3 {
 }
 
 .kira-txt p {
-  color: var(--Light-gray);
+  color: var(--Very-dark-blackish-blue);
 }
 
 .kira-txt span {
-  color: var(--Light-grayish-blue);
+  color: var(--Very-dark-blackish-blue);
   opacity: 50%;
 }
 
@@ -327,7 +327,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 350px;
+    margin-top: 300px;
   }
   .boxes {
     display: flex;
@@ -353,6 +353,7 @@ h3 {
     margin: 0 auto;
     margin-top: 350px;
   }
+
   h3 {
     font-size: 1.5rem;
     width: 400px;
@@ -380,6 +381,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     margin-top: 450px;
   }
   .boxes {
@@ -408,15 +410,24 @@ h3 {
   }
   .box-4 {
     width: 450px;
-    height: 290px;
+    height: 350px;
     margin: 0 auto;
     margin-top: 20px;
+  }
+  .box-5 {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: -160px;
   }
   h3 {
     font-size: 1.5rem;
     width: 400px;
   }
   .jonathan-h3 {
+    width: 400px;
+  }
+  .patrick-h3 {
     width: 400px;
   }
   .quotation-img {
@@ -431,6 +442,15 @@ h3 {
     width: 270px;
     top: 70px;
     width: 390px;
+  }
+  .kira-h3 {
+    width: 400px;
+    margin-top: 15px;
+  }
+  .emt-text-patrick {
+    width: 400px;
+
+    padding-top: 25px;
   }
   .jeanette-h3 {
     width: 400px;
@@ -452,5 +472,9 @@ h3 {
     width: 390px;
     color: var(--Very-dark-blackish-blue);
     opacity: 60%;
+  }
+  .emt-text-kira {
+    width: 400px;
+    margin-top: -15px;
   }
 }
